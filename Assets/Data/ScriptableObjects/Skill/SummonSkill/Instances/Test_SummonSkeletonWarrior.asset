@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f7ee4b09331e56468dbbb1a7ddd71c4, type: 3}
+  m_Name: Test_SummonSkeletonWarrior
+  m_EditorClassIdentifier: 
+  id: 1
+  skillName: "\u53EC\u5524: \u9AB7\u9AC5\u6218\u58EB"
+  animationTriggerStr: auraCast
+  learnLevel: 5
+  cooldownTurns: 5
+  remainingTurns: 0
+  actionPointTakes: 2
+  icon: {fileID: 21300000, guid: 5af20a879b07cc74c92c85cd7b76e953, type: 3}
+  description_Effects: "\u53EC\u55244\u540D\u9AB7\u9AC5\u6218\u58EB"
+  description_BG: 
+  summonedUnitCount: 4
+  inheritSummonerLifespan: 1
+  summonArea:
+    effectAnchor: 1
+    maxDistance: 10
+    radius: 1
+  summonedUnitPrefab: {fileID: 7303371713598297250, guid: 9db62f75054dc794e807f0c0f169fed5, type: 3}

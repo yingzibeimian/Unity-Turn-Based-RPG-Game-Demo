@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c04ef8fbe356c3a44a518faeb10441ea, type: 3}
+  m_Name: Test_Skill5
+  m_EditorClassIdentifier: 
+  id: 4
+  skillName: "\u7BAD\u96E8\u7EB7\u7EB7"
+  animationTriggerStr: bowAttack
+  learnLevel: 5
+  cooldownTurns: 6
+  remainingTurns: 0
+  actionPointTakes: 4
+  icon: {fileID: 21300000, guid: 2ee6bf0e4c48ecc478b45942fadec3c9, type: 3}
+  description_Effects: "\u671D3m\u534A\u5F84\u7684\u76EE\u6807\u8303\u56F4\u5185\u5C04\u51FA\u4E00\u8FDE\u4E32\u5251\u96E8\uFF0C\u5BF9\u6240\u6709\u654C\u65B9\u9020\u62106d8\u7684\u5F3A\u529B\u4F24\u5BB3"
+  description_BG: 
+  damageDiceCount: 6
+  damageDiceSides: 8
+  shouldMoveToTarget: 0
+  effectArea:
+    effectAnchor: 1
+    targetingPattern: 1
+    maxDistance: 14
+    radius: 3
+    width: 0
+    affectSelf: 0
+    affectSelfCamp: 0
+    affectOppositeCamp: 1
+  applicateBuffs: []

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8387c9f2c44999948a994298cbb71f6d, type: 3}
+  m_Name: Defender's Greaves
+  m_EditorClassIdentifier: 
+  id: 16
+  itemName: "\u62B5\u5FA1\u8005\u62A4\u80EB\u7532"
+  value: 4.5
+  weight: 3.5
+  icon: {fileID: 21300000, guid: 43508df297d241b4d83a385a6433fb35, type: 3}
+  iconWithoutBG: {fileID: 21300000, guid: f171792d91eab56488c1ee9657233fb4, type: 3}
+  description: "+2AC +1\u4F53\u8D28"
+  type: 7
+  rarity: 0
+  maxHpModifier: 0
+  attackDistanceModifier: 0
+  strengthModifier: 0
+  finesseModifier: 0
+  intelligenceModifier: 0
+  constitutionModifier: 1
+  charismaModifier: 0
+  witsModifier: 0
+  damageDiceCountModifier: 0
+  damageDiceSidesModifier: 0
+  armorClassModifier: 2
+  initiativeModifier: 0
+  speedModifier: 0
+  equipmentItemBuffs: []
+  equipmentItemSkills: []
+  model: {fileID: 0}
+  weaponType: 0

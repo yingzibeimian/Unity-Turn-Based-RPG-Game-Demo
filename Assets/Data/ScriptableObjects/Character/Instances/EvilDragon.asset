@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a4ddb2bd4cef22468142249651c3360, type: 3}
+  m_Name: EvilDragon
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  characterName: EvilDragon
+  portrait: {fileID: 21300000, guid: 64824108d2fa2204cb1d609c743a02b8, type: 3}
+  bustPortrait: {fileID: 21300000, guid: 79fef7c9c4aa77e4ca6c742da33fa796, type: 3}
+  level: 12
+  maxHp: 126
+  hp: 126
+  strength: 20
+  finesse: 20
+  intelligence: 20
+  constitution: 20
+  charisma: 8
+  wits: 8
+  walkSpeed: 4
+  runSpeed: 6
+  rotateSpeed: 6
+  q: 0
+  r: 0
+  heightOrder: 0
+  attackDistance: 5
+  armorClass: 20
+  initiative: 12
+  actionPoint: 0
+  attackType: 0
+  proficiency: 0

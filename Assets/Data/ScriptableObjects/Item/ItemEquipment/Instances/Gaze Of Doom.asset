@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8387c9f2c44999948a994298cbb71f6d, type: 3}
+  m_Name: Gaze Of Doom
+  m_EditorClassIdentifier: 
+  id: 6
+  itemName: "\u6BC1\u706D\u4E4B\u67F1"
+  value: 2
+  weight: 2
+  icon: {fileID: 21300000, guid: 725f72e653fb61a469df5569673fca7b, type: 3}
+  iconWithoutBG: {fileID: 21300000, guid: 08094ab7a20128346993f3ce8ea06897, type: 3}
+  description: "+1\u667A\u529B +6\u653B\u51FB\u8DDD\u79BB +3\u5148\u653B"
+  type: 8
+  rarity: 1
+  maxHpModifier: 0
+  attackDistanceModifier: 6
+  strengthModifier: 0
+  finesseModifier: 0
+  intelligenceModifier: 1
+  constitutionModifier: 0
+  charismaModifier: 0
+  witsModifier: 0
+  damageDiceCountModifier: 0
+  damageDiceSidesModifier: 0
+  armorClassModifier: 0
+  initiativeModifier: 3
+  speedModifier: 0
+  equipmentItemBuffs: []
+  equipmentItemSkills: []
+  model: {fileID: 7188784459674735443, guid: fd92f8b4511a7364aa567fdc53c6242c, type: 3}
+  weaponType: 2

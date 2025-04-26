@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a4ddb2bd4cef22468142249651c3360, type: 3}
+  m_Name: Anton
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  characterName: Anton
+  portrait: {fileID: 21300000, guid: 000a7497fa849814cbc628448f008187, type: 3}
+  bustPortrait: {fileID: 21300000, guid: 7540efec957f20a4ca59b6770acf01b9, type: 3}
+  level: 6
+  maxHp: 37
+  hp: 37
+  strength: 16
+  finesse: 8
+  intelligence: 8
+  constitution: 8
+  charisma: 8
+  wits: 8
+  walkSpeed: 2.5
+  runSpeed: 3
+  rotateSpeed: 3
+  q: 87
+  r: 19
+  heightOrder: 0
+  attackDistance: 1
+  armorClass: 10
+  initiative: 1
+  actionPoint: 0
+  attackType: 0
+  proficiency: 0

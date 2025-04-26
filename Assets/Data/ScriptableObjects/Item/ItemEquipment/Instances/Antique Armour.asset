@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8387c9f2c44999948a994298cbb71f6d, type: 3}
+  m_Name: Antique Armour
+  m_EditorClassIdentifier: 
+  id: 13
+  itemName: "\u53E4\u4EE3\u62A4\u7532"
+  value: 5
+  weight: 5
+  icon: {fileID: 21300000, guid: efca5ae6d741f05498b524e44ecd3811, type: 3}
+  iconWithoutBG: {fileID: 21300000, guid: 55596b2276e4077478bbd19151a93d02, type: 3}
+  description: "+7\u6700\u5927\u751F\u547D\u503C +4AC"
+  type: 1
+  rarity: 0
+  maxHpModifier: 7
+  attackDistanceModifier: 0
+  strengthModifier: 0
+  finesseModifier: 0
+  intelligenceModifier: 0
+  constitutionModifier: 0
+  charismaModifier: 0
+  witsModifier: 0
+  damageDiceCountModifier: 0
+  damageDiceSidesModifier: 0
+  armorClassModifier: 4
+  initiativeModifier: 0
+  speedModifier: 0
+  equipmentItemBuffs: []
+  equipmentItemSkills: []
+  model: {fileID: 0}
+  weaponType: 0

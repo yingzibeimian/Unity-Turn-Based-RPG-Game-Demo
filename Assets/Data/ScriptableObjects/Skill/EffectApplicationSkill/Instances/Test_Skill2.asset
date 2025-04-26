@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c04ef8fbe356c3a44a518faeb10441ea, type: 3}
+  m_Name: Test_Skill2
+  m_EditorClassIdentifier: 
+  id: 1
+  skillName: "\u95EA\u7535\u675F"
+  animationTriggerStr: frontCast
+  learnLevel: 5
+  cooldownTurns: 5
+  remainingTurns: 0
+  actionPointTakes: 3
+  icon: {fileID: 21300000, guid: 52ef71e949221674db9c550066576b1a, type: 3}
+  description_Effects: "\u5F15\u5BFC\u95EA\u7535\uFF0C\u5411\u524D\u65B93m\u5BBD\u5EA6\u548C20m\u957F\u5EA6\u8303\u56F4\u5185\u7684\u89D2\u8272\u9020\u62104d6\u4F24\u5BB3"
+  description_BG: 
+  damageDiceCount: 4
+  damageDiceSides: 6
+  shouldMoveToTarget: 0
+  effectArea:
+    effectAnchor: 0
+    targetingPattern: 3
+    maxDistance: 0
+    radius: 20
+    width: 3
+    affectSelf: 0
+    affectSelfCamp: 1
+    affectOppositeCamp: 1
+  applicateBuffs: []

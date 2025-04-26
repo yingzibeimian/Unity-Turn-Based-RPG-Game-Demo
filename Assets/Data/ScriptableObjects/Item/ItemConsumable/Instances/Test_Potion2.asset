@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 043dbe2f9da14c14c908e5bf281c37d7, type: 3}
+  m_Name: Test_Potion2
+  m_EditorClassIdentifier: 
+  id: 2
+  itemName: Test_Potion2
+  value: 5
+  weight: 0.15
+  icon: {fileID: 21300000, guid: 5a8910300819e114596d2c29c0466c43, type: 3}
+  iconWithoutBG: {fileID: 21300000, guid: eb8ac170ad9121b4287ed7754da97b22, type: 3}
+  description: a potion for test
+  comsumableItemBuff:
+    buffName: "\u9E70\u773C"
+    timeType: 1
+    durationTurns: 3
+    remainingTurns: 0
+    buffDescription_Effects: "\u654F\u6377+1"
+    buffDescription_BG: "\u9E70\u4E00\u6837\u7684\u53CC\u773C\uFF0C\u6B63\u5728\u8FFD\u8E2A\u76EE\u4E4B\u6240\u53CA\u7684\u4E00\u5207"
+    buffIcon: {fileID: 21300000, guid: f807bc799dbbde74185b8c892e9b8011, type: 3}
+    hpModifier: 0
+    maxHpModifier: 0
+    attackDistanceModifier: 0
+    strengthModifier: 0
+    finesseModifier: 1
+    intelligenceModifier: 0
+    constitutionModifier: 0
+    charismaModifier: 0
+    witsModifier: 0
+    armorClassModifier: 0
+    initiativeModifier: 0
+    speedModifier: 0
+    damageDiceCountModifier: 0
+    damageDiceSidesModifier: 0

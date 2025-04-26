@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c04ef8fbe356c3a44a518faeb10441ea, type: 3}
+  m_Name: Test_Skill6
+  m_EditorClassIdentifier: 
+  id: 5
+  skillName: "\u80BE\u4E0A\u817A\u7D20"
+  animationTriggerStr: auraCast
+  learnLevel: 2
+  cooldownTurns: 4
+  remainingTurns: 0
+  actionPointTakes: 1
+  icon: {fileID: 21300000, guid: 889df24b99909f64991d0be3b95e7a72, type: 3}
+  description_Effects: "\u83B7\u5F97\u884C\u52A8\u70B9\u6570+3"
+  description_BG: 
+  damageDiceCount: 0
+  damageDiceSides: 0
+  shouldMoveToTarget: 0
+  effectArea:
+    effectAnchor: 0
+    targetingPattern: 0
+    maxDistance: 0
+    radius: 0
+    width: 0
+    affectSelf: 1
+    affectSelfCamp: 0
+    affectOppositeCamp: 0
+  applicateBuffs:
+  - buffName: "\u80BE\u4E0A\u817A\u7D20"
+    timeType: 2
+    durationTurns: 0
+    remainingTurns: 0
+    buffDescription_Effects: 
+    buffDescription_BG: 
+    buffIcon: {fileID: 0}
+    hpModifier: 0
+    maxHpModifier: 0
+    attackDistanceModifier: 0
+    strengthModifier: 0
+    finesseModifier: 0
+    intelligenceModifier: 0
+    constitutionModifier: 0
+    charismaModifier: 0
+    witsModifier: 0
+    armorClassModifier: 0
+    initiativeModifier: 0
+    speedModifier: 0
+    actionPointModifier: 3
+    diceCountModifier: 0
+    diceSidesModifier: 0

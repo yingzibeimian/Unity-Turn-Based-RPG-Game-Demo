@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f7ee4b09331e56468dbbb1a7ddd71c4, type: 3}
+  m_Name: Test_SummonSkeletonArcher
+  m_EditorClassIdentifier: 
+  id: 2
+  skillName: "\u53EC\u5524: \u9AB7\u9AC5\u5F13\u7BAD\u624B"
+  animationTriggerStr: auraCast
+  learnLevel: 5
+  cooldownTurns: 5
+  remainingTurns: 0
+  actionPointTakes: 2
+  icon: {fileID: 21300000, guid: 6bf07ebc5677a114c9110086d48a832b, type: 3}
+  description_Effects: "\u53EC\u55242\u540D\u9AB7\u9AC5\u5F13\u7BAD\u624B"
+  description_BG: 
+  summonedUnitCount: 2
+  inheritSummonerLifespan: 1
+  summonArea:
+    effectAnchor: 0
+    maxDistance: 0
+    radius: 1
+  summonedUnitPrefab: {fileID: 6149312174762030741, guid: afa6faa0e10316141b73e1584b967dcb, type: 3}

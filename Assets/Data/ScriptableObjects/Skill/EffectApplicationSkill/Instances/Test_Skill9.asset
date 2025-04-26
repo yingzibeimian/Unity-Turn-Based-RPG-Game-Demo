@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c04ef8fbe356c3a44a518faeb10441ea, type: 3}
+  m_Name: Test_Skill9
+  m_EditorClassIdentifier: 
+  id: 8
+  skillName: "\u5FA1\u98CE\u800C\u884C"
+  animationTriggerStr: auraCast
+  learnLevel: 2
+  cooldownTurns: 4
+  remainingTurns: 0
+  actionPointTakes: 1
+  icon: {fileID: 21300000, guid: 71f1e093245791642ae2aca3dd85b8fa, type: 3}
+  description_Effects: "\u4EE5\u81EA\u8EAB\u4E3A\u4E2D\u5FC3\uFF0C5m\u4EE5\u5185\u7684\u53CB\u65B9\u83B7\u5F97\u5FA1\u98CE\u800C\u884C\u6548\u679C\uFF0C3\u56DE\u5408\u5185\u5148\u653B+1\uFF0C\u901F\u5EA6+1"
+  description_BG: 
+  damageDiceCount: 0
+  damageDiceSides: 0
+  shouldMoveToTarget: 0
+  effectArea:
+    effectAnchor: 0
+    targetingPattern: 1
+    maxDistance: 0
+    radius: 5
+    width: 0
+    affectSelf: 1
+    affectSelfCamp: 1
+    affectOppositeCamp: 0
+  applicateBuffs:
+  - buffName: "\u5FA1\u98CE"
+    timeType: 1
+    durationTurns: 3
+    remainingTurns: 0
+    buffDescription_Effects: "\u5148\u653B+2 \u901F\u5EA6+1"
+    buffDescription_BG: "\u98CE\u4E00\u6837\u7684\u901F\u5EA6"
+    buffIcon: {fileID: 21300000, guid: 08a6c2d1203e24b4eb3a679f704d4380, type: 3}
+    hpModifier: 0
+    maxHpModifier: 0
+    attackDistanceModifier: 0
+    strengthModifier: 0
+    finesseModifier: 0
+    intelligenceModifier: 0
+    constitutionModifier: 0
+    charismaModifier: 0
+    witsModifier: 0
+    armorClassModifier: 0
+    initiativeModifier: 2
+    speedModifier: 1
+    actionPointModifier: 0
+    diceCountModifier: 0
+    diceSidesModifier: 0
